@@ -29,6 +29,9 @@ export const SCRIPT_ID: string = process.env.SCRIPT_ID || '';
 export const PROJECT_ID: string = process.env.PROJECT_ID || '';
 const HOME: string = process.env.HOME || '';
 
+// Other Env Variables
+export const UNPENDING_EXTRA_TESTS: boolean = process.env.UNPENDING_EXTRA_TESTS === 'true';
+
 // Paths
 export const CLASP_PATHS = {
   clientCredsLocal: 'client_credentials.json',
